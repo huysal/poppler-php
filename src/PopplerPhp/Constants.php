@@ -92,6 +92,8 @@ abstract class Constants
     const _LAYOUT      = '-layout';
     const _BOX         = '-box';
 
+    const _DATAURLS     = '-dataurls';
+
     //Poppler Option DataTypes
     const T_STRING  = 'string';
     const T_INTEGER = 'integer';

@@ -135,6 +135,11 @@ trait HtmlOptions
         return $this->setFlag(C::_NOMERGE);
     }
 
+
+    public function imageAsDataUrls(){
+        return $this->setFlag(C::_DATAURLS);
+    }
+
     /**
      * @return mixed
      */
@@ -167,6 +172,7 @@ trait HtmlOptions
             C::_NOMERGE,
             C::_NODRM,
             C::_FONT_FN,
+            C::_DATAURLS,
         ];
     }
 
